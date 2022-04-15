@@ -13,7 +13,7 @@ from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 from keras.models import load_model
-model = tf.keras.models.load_model('keras_model.h5')
+model = tf.keras.models.load_model('model.h5')
 
 
 def teachable_machine_classification(img, uploaded_file):
@@ -70,7 +70,7 @@ if uploaded_file is not None:
     st.write("Classifying a X Ray Image - Normal Vs Pneumonia.........hold tight")
 
 
-    label = teachable_machine_classification(image, 'keras_model.h5')
+    label = teachable_machine_classification(image, 'model.h5')
 
     if label == 1:
         st.write("This X ray looks like having pneumonia.It has abnormal opacification.Needs further investigation by a Radiologist/Doctor.")
