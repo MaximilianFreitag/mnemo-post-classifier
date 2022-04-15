@@ -57,9 +57,9 @@ def teachable_machine_classification(img, uploaded_file):
 
 
 
-st.title("Image Classification with Teachable Machine Learning")
-st.header("Normal X Ray Vs Pneumonia X Ray")
-st.text("Upload a X Ray to detect it is normal or has pneumonia")
+st.title("Mnemo Post Classifier")
+st.header("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
+
 # file upload and handling logic
 uploaded_file = st.file_uploader("Choose a X Ray Image", type="png")
 if uploaded_file is not None:
@@ -73,6 +73,6 @@ if uploaded_file is not None:
     label = teachable_machine_classification(image, 'model.h5')
 
     if label == 1:
-        st.write("This X ray looks like having pneumonia.It has abnormal opacification.Needs further investigation by a Radiologist/Doctor.")
+        st.write("This doens't look like a MNEMO post!")
     else:
-        st.write("Hooray!! This X ray looks normal.This X ray depicts clear lungs without any areas of abnormal opacification in the image")
+        st.write("This is likely to be a MNEMO post")
