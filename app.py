@@ -102,3 +102,43 @@ with col3:
         else:
             st.write("This is likely to be a MNEMO post 👍  ")
             
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+
+footer="""<style>
+a:link , a:visited{
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+a:hover,  a:active {
+color: LightBlue;
+background-color: transparent;
+text-decoration: underline;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: transparent;
+color: grey;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Entwickelt mit ❤️  von <a style='display: inline-block;' href="https://www.instagram.com/max_mnemo/" target="_blank">Max Mnemo </a> // <a style='display: block-inline; text-align: center;' href="https://github.com/MaximilianFreitag/mnemo-post-classifier" target="_blank">Github </a> // <a style='display: block-inline; text-align: center;' href="https://mnemo.uk/contact/" target="_blank">Contact </a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)                
