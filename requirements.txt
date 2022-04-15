@@ -42,7 +42,7 @@ nest-asyncio==1.5.5
 notebook==6.4.10
 numpy
 packaging==21.3
-pandas==1.4.2
+pandas
 pandocfilters==1.5.0
 parso==0.8.3
 pexpect==4.8.0
