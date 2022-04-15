@@ -48,7 +48,7 @@ with col3:
     st.write('Hello')
 
     #create a file uploader widget
-    uploaded_file = st.file_uploader("Choose a brain MRI ...", type="jpg, jpeg, png")
+    uploaded_file = st.file_uploader("Choose a brain MRI ...", type="png")
     
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
