@@ -45,7 +45,7 @@ def teachable_machine_classification(img, weights_file):
 with col3:
     st.header("Mnemo Image Classifier")
     st.write("Take a screenshot of an Instagram post and let my own AI model decide whether it is a mnemo post or not")
-    
+    st.write('Hello')
 
     #create a file uploader widget
     uploaded_file = st.file_uploader("Choose a brain MRI ...", type="jpg, jpeg, png")
