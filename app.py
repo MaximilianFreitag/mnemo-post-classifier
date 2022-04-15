@@ -98,9 +98,9 @@ with col3:
         label = teachable_machine_classification(image, 'model.h5')
 
         if label == 1:
-            st.write("This doens't look like a MNEMO post 👎 ")
+            st.write("This does not look like a MNEMO post 👎 ")
         else:
-            st.write("This is likely to be a MNEMO post 👍  ")
+            st.write("This looks like a MNEMO post 👍  ")
             
 
                 
