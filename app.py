@@ -70,7 +70,7 @@ if uploaded_file is not None:
     st.write("Classifying a X Ray Image - Normal Vs Pneumonia.........hold tight")
 
 
-    label = teachable_machine_classification(image, '/mnemo_ai/converted_keras/keras_model.h5')
+    label = teachable_machine_classification(image, '/keras_model.h5')
 
     if label == 1:
         st.write("This X ray looks like having pneumonia.It has abnormal opacification.Needs further investigation by a Radiologist/Doctor.")
