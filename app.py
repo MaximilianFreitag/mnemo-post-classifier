@@ -82,7 +82,9 @@ with col3:
 
     st.title("Mnemo Post Classifier")
     st.write("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
-
+    img = Image.open("123.png")    
+        
+        
     # file upload and handling logic
     uploaded_file = st.file_uploader("Choose a X Ray Image", type="png")
     if uploaded_file is not None:
