@@ -1,0 +1,2 @@
+0 Max_Mnemo_Post
+1 Not_Max
