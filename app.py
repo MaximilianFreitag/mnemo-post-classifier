@@ -81,7 +81,7 @@ with col3:
 
 
     st.title("Mnemo Post Classifier")
-    st.header("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
+    st.write("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
 
     # file upload and handling logic
     uploaded_file = st.file_uploader("Choose a X Ray Image", type="png")
@@ -90,7 +90,7 @@ with col3:
     #image = Image.open(img_name).convert('RGB')
         st.image(image, caption='Uploaded a X Ray IMage.', use_column_width=True)
         st.write("")
-        st.write("Classifying a X Ray Image - Normal Vs Pneumonia.........hold tight")
+        st.write("Classifying post... please wait")
 
 
         label = teachable_machine_classification(image, 'model.h5')
