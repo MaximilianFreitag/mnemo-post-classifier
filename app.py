@@ -90,7 +90,7 @@ with col3:
     if uploaded_file is not None:
         image = Image.open(uploaded_file).convert('RGB')
     #image = Image.open(img_name).convert('RGB')
-        st.image(image, caption='Uploaded a X Ray IMage.', use_column_width=True)
+        st.image(image, caption='This is your image', use_column_width=True)
         st.write("")
         st.write("Classifying post... please wait")
 
