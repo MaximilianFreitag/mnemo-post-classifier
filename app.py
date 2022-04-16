@@ -69,7 +69,9 @@ with st.sidebar:
             
 
 with col3:
-
+            
+         
+            
     def teachable_machine_classification(img, uploaded_file):
         # Disable scientific notation for clarity
         np.set_printoptions(suppress=True)
@@ -124,9 +126,10 @@ with col3:
         st.write("")
         st.write("Classifying post... please wait")
 
-
+        data_load_state = st.text('Please wait...')  
         label = teachable_machine_classification(image, 'model.h5')
-
+        data_load_state.text('Loading data done!')    
+            
         if label == 1:
             st.write("This does not look like a MNEMO post 👎 ")
         else:
