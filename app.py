@@ -46,17 +46,21 @@ col1, col2, col3, col4, col5 = st.columns([1,1,5,1,1])
 #create a sidebar
 with st.sidebar:
 
-    st.write("You don't have time taking screenshots on instagram? I got you.")
+    st.write('')
 
     #create a button with a downloadable example image
-    download_button = st.button("Download Mnemo Post")
+    download_button = st.button("You don't have time to take screenshots of posts? Here are some example PNGs")
     if download_button:
-        st.markdown("<a href='https://i.imgur.com/Yx7CEPB.png' download>Download Mnemo Post</a>", unsafe_allow_html=True)
+        href='https://i.imgur.com/Yx7CEPB.png'
+        st.markdown(f'<a href="{href}" download>Download</a>', unsafe_allow_html=True)
     #create a button to upload an image
 
-    second_download_button = st.button("Download a Non-Mnemo post")
+    second_download_button = st.button("Download a Non-Mnemo example post")
     if second_download_button:
-        st.markdown("<a href='https://i.imgur.com/RvKb5Sf.png' download>Download Example Image</a>", unsafe_allow_html=True)
+        sec_href = 'https://i.imgur.com/RvKb5Sf.png'
+        #create a auto download button
+        st.markdown(f'<a href="{sec_href}" download>Download</a>', unsafe_allow_html=True)
+
 
 
 
