@@ -112,7 +112,7 @@ with col3:
 
 
     st.title("Mnemo Post Classifier")
-    st.write("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
+    st.write("Take a screenshot of any Instagram post on your home page and see if the post was created by max_mnemo or not.")
     
         
     # file upload and handling logic
