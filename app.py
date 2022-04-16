@@ -47,7 +47,7 @@ col1, col2, col3, col4, col5 = st.columns([1,1,5,1,1])
 #create a sidebar
 with st.sidebar:
 
-    st.write("You don't have time to take screenshots of posts? Here are some example PNGs")
+    st.header("You don't have time to take screenshots of posts? Here are some example PNGs")
 
     #create an expander
     with st.expander("Mnemo Posts"):
@@ -60,7 +60,7 @@ with st.sidebar:
     st.write(' ')
     st.write(' ')
 
-    st.write('How does my Ai work?')                    
+    st.header('How does my Ai work?')                    
     st.write('I used the library Tensorflow and collected 125 images of my instagram page to train my Ai on my style of posts.') 
     st.write('Since the Ai also needs counter examples I also took 200 images from my front page and used these to help out my model  ')
             
