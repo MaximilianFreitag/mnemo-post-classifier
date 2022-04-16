@@ -133,8 +133,8 @@ with col3:
             st.write("This looks like a MNEMO post 👍  ")
             
 
-     img_title = Image.open("1234.png")    
-     st.image(img_title)           
+    img_title = Image.open("1234.png")    
+    st.image(img_title)           
                 
                 
                 
