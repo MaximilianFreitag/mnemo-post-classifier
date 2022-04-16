@@ -117,7 +117,7 @@ with col3:
     st.write("Take a screenshot of any Instagram post on your home page and see if the post was created by max_mnemo or not.")
     
     st.write(' ')          
-    img_title = Image.open("123.png")    
+    img_title = Image.open("123456.png")    
     st.image(img_title)
     st.write(' ')        
             
