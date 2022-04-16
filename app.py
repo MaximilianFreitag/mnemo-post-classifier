@@ -123,12 +123,13 @@ with col3:
         image = Image.open(uploaded_file).convert('RGB')
     #image = Image.open(img_name).convert('RGB')
         st.image(image, caption='This is your image', use_column_width=True)
-        st.write("")
-        st.write("Classifying post... please wait")
-
+        st.write(" ")
+        
         data_load_state = st.text('Please wait...')  
         label = teachable_machine_classification(image, 'model.h5')
         data_load_state.text('Loading data done!')    
+            
+        st.write(" ")    
             
         if label == 1:
             st.write("This does not look like a MNEMO post 👎 ")
