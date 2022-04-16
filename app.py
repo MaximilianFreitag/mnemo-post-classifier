@@ -132,7 +132,8 @@ with col3:
         else:
             st.write("This looks like a MNEMO post 👍  ")
             
-
+    st.write(' ')
+    st.write(' ')
     img_title = Image.open("1234.png")    
     st.image(img_title)           
                 
