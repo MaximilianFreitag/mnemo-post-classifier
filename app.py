@@ -64,7 +64,8 @@ with st.sidebar:
     st.write('I used the library Tensorflow and collected 125 images of my instagram page to train my Ai on my style of posts.') 
     st.write('Since the Ai also needs counter examples I also took 200 images from my front page and used these to help out my model  ')
     
-
+    st.write(' ')
+    st.write(' ')
     st.write("My Instagram page [link](https://www.instagram.com/max_mnemo/)")
             
             
