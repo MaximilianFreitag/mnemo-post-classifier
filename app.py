@@ -63,7 +63,9 @@ with st.sidebar:
     st.header('How does my Ai work?')                    
     st.write('I used the library Tensorflow and collected 125 images of my instagram page to train my Ai on my style of posts.') 
     st.write('Since the Ai also needs counter examples I also took 200 images from my front page and used these to help out my model  ')
-            
+    
+
+    st.write("My Instagram page [link](https://www.instagram.com/max_mnemo/)")
             
             
             
@@ -115,7 +117,7 @@ with col3:
 
     st.header("Mnemo Post Classifier")
     st.write("Take a screenshot of any Instagram post on your home page and see if the post was created by max_mnemo (me) or not.")
-    st.write("My Instagram page [link](https://www.instagram.com/max_mnemo/)")
+    
     
     st.write(' ')          
     img_title = Image.open("123456.png")    
