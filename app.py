@@ -17,12 +17,6 @@ model = tf.keras.models.load_model('model.h5')
 
 
 
-#Favicon and Header
-st.set_page_config(
-        page_title='Mnemo Classifier                 ',
-        page_icon="🤖"
-        )
-
 
 hide_streamlit_style = """
             <style>
@@ -30,11 +24,41 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
+
+
+
+st.set_page_config(page_title="Mnemo Classifier                 ", 
+                    page_icon="🤖", 
+                    layout="centered", 
+                    initial_sidebar_state="collapsed",
+                    menu_items=None)
+
+
+
+
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
 
 col1, col2, col3, col4, col5 = st.columns([1,1,5,1,1])
+
+
+#create a sidebar
+with st.sidebar:
+
+    st.write('')
+
+    #create a button with a downloadable example image
+    download_button = st.button("You don't have time to take screenshots of posts? I got you")
+    if download_button:
+        st.markdown("<a href='https://i.imgur.com/Yx7CEPB.png' download>Download Mnemo Post</a>", unsafe_allow_html=True)
+    #create a button to upload an image
+
+    second_download_button = st.button("Download a Non-Mnemo example post")
+    if second_download_button:
+        st.markdown("<a href='https://i.imgur.com/RvKb5Sf.png' download>Download Example Image</a>", unsafe_allow_html=True)
+
+
 
 
 with col3:
