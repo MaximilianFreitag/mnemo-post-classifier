@@ -46,7 +46,7 @@ col1, col2, col3, col4, col5 = st.columns([1,1,5,1,1])
 #create a sidebar
 with st.sidebar:
 
-    st.write('You don't have time to take screenshots of posts? Here are some example PNGs')
+    st.write("You don't have time to take screenshots of posts? Here are some example PNGs")
 
     #create a button with a downloadable example image
     download_button = st.button("Mnemo posts")
