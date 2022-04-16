@@ -51,11 +51,11 @@ with st.sidebar:
 
     #create an expander
     with st.expander("Mnemo Posts"):
-        st.markdown(f'<a href="{"https://i.imgur.com/Yx7CEPB.png"}" download>Download</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{"https://i.imgur.com/Yx7CEPB.png"}" download>1</a>', unsafe_allow_html=True)
 
 
     with st.expander("Non-Mnemo Posts"):
-        st.markdown(f'<a href="{"https://i.imgur.com/RvKb5Sf.png"}" download>Download</a>', unsafe_allow_html=True)   
+        st.markdown(f'<a href="{"https://i.imgur.com/RvKb5Sf.png"}" download>1</a>', unsafe_allow_html=True)   
 
 
 
