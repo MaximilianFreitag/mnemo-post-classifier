@@ -182,7 +182,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Entwickelt mit ❤️  von <a style='display: inline-block;' href="https://www.instagram.com/max_mnemo/" target="_blank">Max Mnemo </a> // <a style='display: block-inline; text-align: center;' href="https://github.com/MaximilianFreitag/mnemo-post-classifier" target="_blank">Github </a> // <a style='display: block-inline; text-align: center;' href="https://mnemo.uk/contact/" target="_blank">Contact </a></p>
+<p>Developed with ❤️  by <a style='display: inline-block;' href="https://www.instagram.com/max_mnemo/" target="_blank">Max Mnemo </a> // <a style='display: block-inline; text-align: center;' href="https://github.com/MaximilianFreitag/mnemo-post-classifier" target="_blank">Github </a> // <a style='display: block-inline; text-align: center;' href="https://mnemo.uk/contact/" target="_blank">Contact </a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)                
