@@ -116,8 +116,10 @@ with col3:
     st.header("Mnemo Post Classifier")
     st.write("Take a screenshot of any Instagram post on your home page and see if the post was created by max_mnemo or not.")
     
+    st.write(' ')          
     img_title = Image.open("1234.png")    
-    st.image(img_title)         
+    st.image(img_title)
+    st.write(' ')        
             
         
     # file upload and handling logic
