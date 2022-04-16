@@ -57,9 +57,16 @@ with st.sidebar:
     with st.expander("Non-Mnemo Posts"):
         st.markdown(f'<a href="{"https://i.imgur.com/RvKb5Sf.png"}" download>Image</a>', unsafe_allow_html=True)   
 
+    st.write(' ')
+    st.write(' ')
 
-
-
+    st.write('How does my Ai work?')                    
+    st.write('I used the library Tensorflow and collected 125 images of my instagram page to train my Ai on my style of posts.') 
+    st.write('Since the Ai also needs counter examples I also took 200 images from my front page and used these to help out my model  ')
+            
+            
+            
+            
 
 with col3:
 
