@@ -32,8 +32,8 @@ __________________________________________________
 ### To-Do list: (Things that I want to add as a functionality)
 
 
-- [ ] A sidebar with a button where users can download example posts
-- [ ] Add a loading time animation
+- [x] A sidebar with a button where users can download example posts
+- [x] Add a loading time 
 
 <br>
 <br>
