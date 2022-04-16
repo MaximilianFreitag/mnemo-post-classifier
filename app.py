@@ -43,23 +43,19 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 col1, col2, col3, col4, col5 = st.columns([1,1,5,1,1])
 
 
+
 #create a sidebar
 with st.sidebar:
 
     st.write("You don't have time to take screenshots of posts? Here are some example PNGs")
 
-    #create a button with a downloadable example image
-    download_button = st.button("Mnemo posts")
-    if download_button:
-        href='https://i.imgur.com/Yx7CEPB.png'
-        st.markdown(f'<a href="{href}" download>Download</a>', unsafe_allow_html=True)
-    #create a button to upload an image
+    #create an expander
+    with st.expander("Mnemo Posts"):
+        st.markdown(f'<a href="{"https://i.imgur.com/Yx7CEPB.png"}" download>Download</a>', unsafe_allow_html=True)
 
-    second_download_button = st.button("Non-Mnemo posts")
-    if second_download_button:
-        sec_href = 'https://i.imgur.com/RvKb5Sf.png'
-        #create a auto download button
-        st.markdown(f'<a href="{sec_href}" download>Download</a>', unsafe_allow_html=True)
+
+    with st.expander("Non-Mnemo Posts"):
+        st.markdown(f'<a href="{"https://i.imgur.com/RvKb5Sf.png"}" download>Download</a>', unsafe_allow_html=True)   
 
 
 
