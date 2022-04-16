@@ -113,8 +113,7 @@ with col3:
 
     st.title("Mnemo Post Classifier")
     st.write("Take a screenshot from my instagram posts and see if my trained Ai model is right at classiyfing my style of post")
-    img_title = Image.open("1234.png")    
-    st.image(img_title)
+    
         
     # file upload and handling logic
     uploaded_file = st.file_uploader("Upload your screenshot here", type="png")
@@ -134,7 +133,8 @@ with col3:
             st.write("This looks like a MNEMO post 👍  ")
             
 
-                
+     img_title = Image.open("1234.png")    
+     st.image(img_title)           
                 
                 
                 
