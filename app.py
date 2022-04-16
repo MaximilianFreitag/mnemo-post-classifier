@@ -66,7 +66,7 @@ with st.sidebar:
     
     st.write(' ')
     st.write(' ')
-    st.write("My Instagram page [link](https://www.instagram.com/max_mnemo/)")
+    st.write("My [Instagram page](https://www.instagram.com/max_mnemo/)")
             
             
             
@@ -162,12 +162,12 @@ with col3:
 
 footer="""<style>
 a:link , a:visited{
-color: red;
+color: LightBlue;
 background-color: transparent;
 text-decoration: underline;
 }
 a:hover,  a:active {
-color: LightBlue;
+color: LightRed;
 background-color: transparent;
 text-decoration: underline;
 }
