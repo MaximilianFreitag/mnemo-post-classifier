@@ -117,7 +117,7 @@ with col3:
 
 
     st.header("Mnemo Post Classifier")
-    st.write("Take a screenshot of any Instagram post on your home page and see if the post was created by max_mnemo (me) or not.")
+    st.write("Take a screenshot (Shift + CMD + 4 on MacOS ... Windows + Shift + 4 on windows) of any Instagram post on your home page and see if the post was created by max_mnemo (me) or not.")
     
     
     st.write(' ')          
