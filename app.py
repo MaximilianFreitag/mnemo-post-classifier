@@ -57,6 +57,11 @@ with st.sidebar:
     with st.expander("Non-Mnemo Posts"):
         st.markdown(f'<a href="{"https://i.imgur.com/RvKb5Sf.png"}" download>Image</a>', unsafe_allow_html=True)   
 
+
+    with st.expander("False Positives"):
+        st.markdown(f'<a href="{"https://i.imgur.com/9GjgTs7.png"}" download>Image</a>', unsafe_allow_html=True)   
+
+
     st.write(' ')
     st.write(' ')
 
