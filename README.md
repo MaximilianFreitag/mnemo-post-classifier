@@ -48,6 +48,15 @@ __________________________________________________
 <br />
 <br />
 
+__________________________________________________
+<br />
+
+<p align="center"> Technolgies used </p>
+<div align="center">
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/streamlit.svg"/>
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
+  
+</div>
 
 
 ## License
