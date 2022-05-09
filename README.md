@@ -71,7 +71,7 @@ __________________________________________________
 __________________________________________________
 <br />
 <br />
-#Streamlit #Ai #MachineLearning #Mnemo #Informatik #python #teachablemachine
+#Streamlit #Ai #MachineLearning #Mnemo #Informatik #python #teachablemachine #tensorflow #keras
 <br />
 <br />
 
