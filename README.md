@@ -15,7 +15,7 @@ Demo --> https://share.streamlit.io/maximilianfreitag/mnemo-post-classifier/app.
 __________________________________________________
 <br>
 
-<!-- Running locally -->
+<!-- Running Locally -->
 ## Running locally
 
 
@@ -59,21 +59,22 @@ __________________________________________________
 
 __________________________________________________
 <br />
-<br />
-#Streamlit #Ai #MachineLearning #Mnemo #Informatik #python #teachablemachine
-<br />
-<br />
-
-__________________________________________________
-<br />
 
 <p align="center"> Technolgies used </p>
 <div align="center">
-  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/streamlit.svg"/>
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/Tensorflow.svg"/>
   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
    <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/google.svg"/>
   
 </div>
+
+
+__________________________________________________
+<br />
+<br />
+#Streamlit #Ai #MachineLearning #Mnemo #Informatik #python #teachablemachine
+<br />
+<br />
 
 
 ## License
