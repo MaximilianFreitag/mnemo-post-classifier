@@ -62,7 +62,7 @@ __________________________________________________
 
 <p align="center"> Technolgies used </p>
 <div align="center">
-  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/Tensorflow.svg"/>
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tensorflow.svg"/>
   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
    <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/google.svg"/>
   
