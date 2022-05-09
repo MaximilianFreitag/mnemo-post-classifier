@@ -64,7 +64,7 @@ __________________________________________________
 <div align="center">
   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tensorflow.svg"/>
   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
-   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/streamlit.svg"/>
+  
   
 </div>
 
