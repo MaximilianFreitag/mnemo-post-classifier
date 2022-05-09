@@ -12,7 +12,7 @@ Demo --> https://share.streamlit.io/maximilianfreitag/mnemo-post-classifier/app.
 
 <br>
 __________________________________________________
-<br>
+<br />
 
 <!-- Running Locally -->
 ## Running locally
@@ -28,19 +28,16 @@ __________________________________________________
    streamlit run app.py
 
 
-<br>
 __________________________________________________
-
+<br />
 <br>
 
 ### Bugs and problems: 🐞
 
 None
 
-
-<br>
 __________________________________________________
-
+<br />
 <br>
 <br>
 
