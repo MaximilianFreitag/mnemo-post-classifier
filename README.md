@@ -4,6 +4,16 @@ An Ai model that can identify posts made by max_mnemo
 
 Demo --> https://share.streamlit.io/maximilianfreitag/mnemo-post-classifier/app.py
 
+
+__________________________________________________
+<br />
+<p align="center"> Technolgies used </p>
+<div align="center">
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tensorflow.svg"/>
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
+</div>
+<br />
+
 <br>
 
 
@@ -56,17 +66,6 @@ __________________________________________________
 
 
 
-
-__________________________________________________
-<br />
-
-<p align="center"> Technolgies used </p>
-<div align="center">
-  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tensorflow.svg"/>
-  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/python.svg"/>
-  
-  
-</div>
 
 
 __________________________________________________
