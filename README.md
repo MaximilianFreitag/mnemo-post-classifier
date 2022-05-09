@@ -13,7 +13,7 @@ Demo --> https://share.streamlit.io/maximilianfreitag/mnemo-post-classifier/app.
 
 <br>
 __________________________________________________
-
+<br>
 
 <!-- Running locally -->
 ## Running locally
@@ -26,9 +26,10 @@ __________________________________________________
 
 2. Cd into the folder and run:
    ```sh
-   streamlit run 
+   streamlit run app.py
 
 
+<br>
 __________________________________________________
 
 <br>
