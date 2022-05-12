@@ -7,8 +7,9 @@ Demo --> https://share.streamlit.io/maximilianfreitag/mnemo-post-classifier/app.
 <br>
 
 
-https://user-images.githubusercontent.com/46624616/168164116-caaf8edd-9e17-4470-9427-fcdd157cf4dd.mp4
 
+
+https://user-images.githubusercontent.com/46624616/168164414-07decc46-f057-412c-a11e-d78dabad876e.mov
 
 
 
