@@ -34,6 +34,7 @@ __________________________________________________
 
 __________________________________________________
 <br />
+
 <br>
 
 ### Bugs and problems: 🐞
@@ -61,6 +62,9 @@ __________________________________________________
 
 __________________________________________________
 <br />
+
+<br>
+
 <p align="center"> Technolgies used </p>
 <div align="center">
   <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tensorflow.svg"/>
